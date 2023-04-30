@@ -9958,7 +9958,7 @@ end)
 
 addcmd('explorer', {'dex'}, function(args, speaker)
     notify('Loading', 'Hold on a sec')
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/InfernoKarl/89e947d8f0b21dacff478add5de5ce24/raw/22239fbd9d6f528a090a6d5a7e153e0cb32f1b33/karldex.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernoKarl/karlyield/master/customdex.lua"))()
 end)
 
 addcmd('olddex', {'odex'}, function(args, speaker)
